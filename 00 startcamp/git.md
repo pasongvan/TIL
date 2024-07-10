@@ -29,6 +29,7 @@
 * `git commit -m [커밋메시지]`
 ### `git push`
 * `git push [원격저장소] [브랜치]`
+    -`git push origin master`
 ### `git pull`
 * 폴더 생성 `mkdir [폴더명]`
     - 폴더로 이동 `cd [폴더명]`
