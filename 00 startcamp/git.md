@@ -7,6 +7,7 @@
 * 계정설정 및 추가
     * `git config --global user.name [나의 유저네임]`
     * `git config --global user.email [나의 github 이메일]`
+    * `git config --local user.name [나의 유저네임]`
 * 계정확인
     * `git config --global user.name`
     * `git config --global user.email`
@@ -27,8 +28,9 @@
 * 파일 1개만 올리거나 공백으로 구분해서 올리기
 ### `git commit`
 * `git commit -m [커밋메시지]`
+* `git commit --amend` 커밋메시지 수정
 ### `git push`
-* `git push [원격저장소] [브랜치]`
+* `git push [원격저장소] [브랜치]` 
     -`git push origin master`
 ### `git pull`
 * 폴더 생성 `mkdir [폴더명]`
@@ -51,5 +53,5 @@
     - 추적이 되고 있는지만 확인 가능
 - `git log`
     - commit 이후에만!!
-    - 내림차순 최신이 맨 위
+    - 내림차순 최신이 맨위
     - `git log --oneline` 짧게 보기
